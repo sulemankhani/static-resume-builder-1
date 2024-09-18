@@ -1,0 +1,258 @@
+/* styles.css */
+
+/* General Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #F4F4F9; /* Soft background for a clean look */
+}
+
+.resume-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: #1E1E2E; /* Dark background for contrast */
+  border-radius: 15px;
+  color: #F4F4F9; /* Light text for better readability */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  transition: transform 0.3s ease-in-out;
+}
+
+.resume-container:hover {
+  transform: scale(1.02); /* Subtle hover effect */
+}
+
+/* Section Headers */
+h1, h2 {
+  color: #F2E9E4; /* Light accent color for headers */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #F4F4F9;
+  padding-bottom: 5px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Personal Information Section */
+#personal-info {
+  text-align: center;
+}
+
+#profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid #F2E9E4;
+  margin-top: 20px;
+}
+
+#personal-info p {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+/* Section Styling */
+section {
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #292C42; /* Slightly lighter background for contrast */
+  color: #E4E6F0;
+  margin: 8px 0;
+  padding: 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+ul li:hover {
+  background-color: #200036; /* Hover effect on list items */
+}
+
+/* Button Styling */
+button {
+  padding: 12px 20px;
+  background-color: #F76C6C; /* Accent color for the button */
+  color: #F4F4F9;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display:yellow;
+  margin: 20px auto;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF7878; /* Lighter shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .resume-container {
+      padding: 20px;
+  }
+
+  h1 {
+      font-size: 28px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+
+  #profile-picture {
+      width: 120px;
+      height: 120px;
+  }
+
+  button {
+      width: 100%;
+  }
+}
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif; /* Modern, elegant font */
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1F1C2C, #928DAB); /* Gradient background */
+  color: #F0F0F0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-container {
+  max-width: 900px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.1); /* Translucent background */
+  backdrop-filter: blur(10px); /* Glassmorphism effect */
+  border-radius: 20px;
+  color: #F4F4F9;
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37); /* Soft shadow for depth */
+  transition: transform 0.3s ease-in-out;
+}
+
+.resume-container:hover {
+  transform: translateY(-5px); /* Subtle lift on hover */
+}
+
+/* Headers */
+h1, h2 {
+  color: #FFDDC1; /* Warm light accent color */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 36px;
+  border-bottom: 2px solid #FFDDC1;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+/* Personal Info */
+#personal-info {
+  text-align: center;
+}
+
+#profile-picture {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #FFDDC1;
+  margin-top: 20px;
+  transition: transform 0.3s ease;
+}
+
+#profile-picture:hover {
+  transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Section Styling */
+section {
+  margin-bottom: 40px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background: rgba(255, 255, 255, 0.15); /* Translucent item background */
+  color: #E4E6F0;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+ul li:hover {
+  background-color: rgba(255, 255, 255, 0.3); /* Lighter background on hover */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+/* Button Styling */
+button {
+  padding: 15px 25px;
+  background-color: #F76C6C; /* Bright accent color for buttons */
+  color: #F4F4F9;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.3s;
+}
+
+button:hover {
+  background-color: #FF8A80; /* Lighter shade on hover */
+  transform: translateY(-3px); /* Lift effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .resume-container {
+      padding: 20px;
+  }
+
+  h1 {
+      font-size: 28px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+
+  #profile-picture {
+      width: 130px;
+      height: 130px;
+  }
+
+  button {
+      width: 100%;
+  }
+}
